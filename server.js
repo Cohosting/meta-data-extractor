@@ -2,7 +2,7 @@ const express = require('express');
 const urlMetadata = require('url-metadata');
 
 const app = express();
-const port = 9000;
+const port = 3000;
 
 async function extractMetadata(url) {
   try {
@@ -52,6 +52,6 @@ app.get('/metadata', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server listening on port ${port}`);
 });
