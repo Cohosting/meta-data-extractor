@@ -1,6 +1,7 @@
+## Metadata Extractor 
+
 !["Image description"](https://www.vision-advertising.com/wp-content/uploads/2022/03/Metadata.jpg)
 
-## Metadata Extractor 
 
 This Node.js application provides an API endpoint to extract metadata from any given URL. It leverages the `url-metadata` library to retrieve information like title, description, images, and more.
 
